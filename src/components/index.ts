@@ -1,9 +1,1 @@
-export {};
-export {};
-export {};
-export {};
-export {};
-export {};
-export {};
-export {};
-export * from "./Test";
+export * from './AuthShowcase';
