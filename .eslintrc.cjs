@@ -16,8 +16,10 @@ const config = {
       files: ['*.ts', '*.tsx'],
       extends: [
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'prettier',
+        'plugin:prettier/recommended',
       ],
-      plugins: ['unused-imports', 'import'],
+      plugins: ['unused-imports', 'import', 'react'],
       parserOptions: {
         project: 'tsconfig.json',
         tsconfigRootDir: __dirname,
